@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="btn_get_involved_caption">Open Source - Get involved...</string>
+    <string name="click_me">Click Me!</string>
+    <string name="button_clicked">Button clicked!</string>
+    <string name="list_selection">Selected: %1$s</string>
+
+    <string-array name="list_items">
+        <item>Espresso</item>
+        <item>Doppio</item>
+        <item>Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Americano</item>
+        <item>Mocha</item>
+        <item>Latte</item>
+    </string-array>
+</resources>
