@@ -7,7 +7,7 @@ android:process 值使用: 开头命名
 
 
 
-多进程的优点
+### 多进程的优点
 1.分散内存的占用
 2.实现多模块
 3.子线程崩溃，主线程可以继续工作
@@ -19,6 +19,8 @@ android:process 值使用: 开头命名
 ②可以使用Jobscheduler来实现进程保活
 ③双进程守护
 
-多进程的缺点
+### 多进程的缺点
 1.application 重复创建
 2.static 无法保存
+
+方案二:JobScheduler执行任务调度保活
